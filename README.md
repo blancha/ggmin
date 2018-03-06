@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/sjessa/ggmin.svg?branch=master)](https://travis-ci.org/sjessa/ggmin)
+[![Build Status](https://travis-ci.org/blancha/ggmin.svg?branch=master)](https://travis-ci.org/blancha/ggmin)
 
-# ggmin
+# ggmin (Forked from original package (https://github.com/sjessa/ggmin)
 Two clean themes for `ggplot2`:
 * `theme_min()`: a minimalist theme for general use
 * `theme_powerpoint()`: a minimalist theme with a few handy defaults for plots for Powerpoint slides: larger text in certain elements, and a little extra room between axis titles and the plot
@@ -8,7 +8,7 @@ Two clean themes for `ggplot2`:
 ### install
 ```r
 install.packages("devtools")  
-devtools::install_github("sjessa/ggmin")
+devtools::install_github("blancha/ggmin")
 ```
 
 ### use
