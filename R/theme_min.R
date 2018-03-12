@@ -21,9 +21,9 @@ theme_min <- function(base_size = 11, base_family = "") {
       title = element_text(size = rel(0.9)),
       axis.text = element_text(colour = "black", size = rel(0.8)),
       axis.title = element_text(hjust=0.5, colour = "black", size = rel(0.9)),
-      legend.title = element_text(colour = "black", size = rel(0.9)),
+      legend.title = element_text(colour = "black", size = rel(1.0)),
       legend.key.size = unit(0.9, "lines"),
-      legend.text = element_text(size = rel(1.0), colour = "black"),
+      legend.text = element_text(size = rel(0.9), colour = "black"),
       legend.key = element_rect(colour = NA, fill = NA),
       legend.background = element_rect(colour = NA, fill = NA)
     )
